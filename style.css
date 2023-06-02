@@ -1,0 +1,76 @@
+.body { 
+    
+    background-color: rgb(255, 157, 66);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('https://wallpaperaccess.com/full/3401069.jpg');
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.about-me {
+    padding: 5.5rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+}
+
+.circle-image {
+    border: 4px solid white;
+    background-image: url('https://i.pinimg.com/originals/f8/9a/f7/f89af70584f92c1b669f7f890b63bd06.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 150px;
+    z-index: 1;
+}
+div.noticia {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(153, 102, 68);
+    color: #fff;
+    padding: 15px;
+  }
+  
+  div.noticia img.izquierda {
+    float: left;
+    margin-right: 15px;
+  }
+  
+  div.noticia img.derecha {
+    float: right;
+    margin-left: 15px;
+  }
+  
+  div.reset {
+    clear: both;
+  }
+  .container{
+    text-align: center;
+    background-color: rgb(255, 225, 201);
+    }
+.col{
+    width: 265px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 20px;
+    }
+.col h2{
+    color: #a7430a;
+    }
+.final{
+    background-color: rgb(202, 102, 20);
+
+}
+
